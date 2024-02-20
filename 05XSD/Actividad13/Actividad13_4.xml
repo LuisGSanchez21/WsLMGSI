@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa [
+    <!ELEMENT empresa (nombre,nif,española,capital_social,dirección,empleados+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nif (#PCDATA)>
+    <!ELEMENT española (#PCDATA)>
+
+    <!ELEMENT dirección (tipo_vía,nombre_vía,código_postal,país)>
+    <!ELEMENT tipo_vía (#PCDATA)>
+    <!ELEMENT nombre_vía (#PCDATA)>
+    <!ELEMENT código_postal (#PCDATA)>
+    <!ELEMENT país (#PCDATA)>
+
+    <!ELEMENT empleados (nombre,apellido+,dni,extranjero,fecha_nacimiento,salario,dirección,casado?)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT extranjero (#PCDATA)>
+    <!ELEMENT fecha_nacimiento (#PCDATA)>
+    <!ELEMENT salario (#PCDATA)>
+    <!ELEMENT casado (#PCDATA)>
+
+    <!ELEMENT capital_social (euros | dólares | yenes)>
+    <!ELEMENT euros (#PCDATA)>
+    <!ELEMENT dólares (#PCDATA)>
+    <!ELEMENT yenes (#PCDATA)>
+
+    <!ENTITY espannia SYSTEM "España">
+]>
+
+<empresa>
+    <nombre>Nombre de la Empresa</nombre>
+    <nif>12345678A</nif>
+    <española>true</española>
+    <capital_social>
+        <euros>100000.00</euros>
+    </capital_social>
+    <dirección>
+        <tipo_vía>Calle</tipo_vía>
+        <nombre_vía>Principal</nombre_vía>
+        <código_postal>12345</código_postal>
+        <país>&espannia;</país>
+    </dirección>
+    <empleados>
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <dni>12345678Z</dni>
+        <extranjero>false</extranjero>
+        <fecha_nacimiento>1990-05-15</fecha_nacimiento>
+        <salario>30000.00</salario>
+        <dirección>
+            <tipo_vía>Calle</tipo_vía>
+            <nombre_vía>Secundaria</nombre_vía>
+            <código_postal>54321</código_postal>
+            <país>España</país>
+        </dirección>
+        <casado>true</casado>
+    </empleados>
+    <empleados>
+        <nombre>Don</nombre>
+        <apellido>Pollo</apellido>
+        <dni>9798789</dni>
+        <extranjero>true</extranjero>
+        <fecha_nacimiento>1985-06-22</fecha_nacimiento>
+        <salario>300000000.00</salario>
+        <dirección>
+            <tipo_vía>Calle</tipo_vía>
+            <nombre_vía>Secundaria</nombre_vía>
+            <código_postal>54321</código_postal>
+            <país>RD</país>
+        </dirección>
+    </empleados>
+</empresa>

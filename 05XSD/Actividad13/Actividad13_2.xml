@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<biblioteca>
+    <nombre>Biblioteca regional</nombre>
+    <seccion>
+        <libro>
+            <titulo>El libro Troll</titulo>
+            <autor>Rubius</autor>
+            <resumen>Un libro épico para trollear</resumen>
+            <editorial>
+                <nombre>Editorial Rubius</nombre>
+                <ciudad>Madrid</ciudad>
+            </editorial>
+        </libro>
+        <libro>
+            <titulo>El arte de la guerra</titulo>
+            <autor>Sun Tzu</autor>
+            <anio>500</anio>
+            <resumen>Estrategias militares y politicas</resumen>
+            <editorial>
+                <nombre>Editorial Fundamentos</nombre>
+                <ciudad></ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+    <seccion>
+        <libro>
+            <titulo>Wigetta</titulo>
+            <autor>Willyrex, Vegeta777</autor>
+            <anio>2015</anio>
+            <resumen>Historia basada en un videojuego sobre Willyrex y Vegeta777</resumen>
+            <editorial>
+                <nombre>Ediciones Martínez Roca</nombre>
+                <ciudad>Madrid</ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+    <seccion>
+        <libro>
+            <titulo>Five Nights at Freddy's: Silver Eyes</titulo>
+            <autor>Scott Cawton</autor>
+            <resumen>Robots asesinos</resumen>
+            <editorial>
+                <codigo>FJLA4654</codigo>
+                <nombre>Roca Editorial</nombre>
+                <ciudad>Texas</ciudad>
+            </editorial>
+        </libro>
+        <libro>
+            <titulo>Among Us. Elige tu aventura: Descubre si eres el héroe o el impostor (Libros basados en juegos)</titulo>
+            <autor>Amogus</autor>
+            <anio>2021</anio>
+            <resumen>Amogus</resumen>
+            <editorial>
+                <nombre>Ediciones Galácticas</nombre>
+                <ciudad>Amogus</ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+    <!-- Puedes agregar más secciones y libros según sea necesario -->
+</biblioteca>
+    </schema>

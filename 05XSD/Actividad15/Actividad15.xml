@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ciudad xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNamespaceSchemaLocation="Actividad15.xsd"
+    código_identificador="AB-4715">
+    <nombre>Madrid</nombre>
+    <población>1000</población>
+    <alcalde edad="108">
+        <nombre>Dandy</nombre>
+        <apellidos>De Barcelona</apellidos> 
+        <teléfono>+34711582698</teléfono>
+        <tarjeta_crédito>7984645132165647</tarjeta_crédito>
+        <correo_electrónico>jose21@gmail.com</correo_electrónico>
+    </alcalde>
+    <funcionarios id="7894561230">
+        <nombre_y_apellidos>Homero Simson</nombre_y_apellidos>
+        <código_postal>28507</código_postal>
+        <fecha_de_nacimiento>09/12/1987</fecha_de_nacimiento>
+        <contrasenia>X65709264@</contrasenia>
+        <número_cuenta_bancaria>ES7894 5649 1234</número_cuenta_bancaria>
+    </funcionarios>
+    <funcionarios id="8974561324">
+        <nombre_y_apellidos>Peter Griffin</nombre_y_apellidos>
+        <código_postal>24789</código_postal>
+        <fecha_de_nacimiento>05/06/1997</fecha_de_nacimiento>
+        <contrasenia>S87978897989789%</contrasenia>
+        <número_cuenta_bancaria>ES7897 7895 7455</número_cuenta_bancaria>
+    </funcionarios>
+</ciudad>
