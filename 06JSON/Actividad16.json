@@ -1,0 +1,68 @@
+{"videojuego":{
+    "nombre": "God of War",
+    "fecha_creacion": "20 de abril de 2018",
+    "nota": "10/10",
+    "lista_programadores":[
+        {
+            "nombre": "Cory",
+            "apellido1": "Barlog",
+            "dni": "23127035Y",
+            "fecha_nacimiento": "2 de septiembre de 1975",
+            "direccion":[
+                {
+                    "tipo_via":"Calle",
+                    "nombre_via":"San Andrés 42",
+                    "codigo_postal":"24193",
+                    "pais":"España"
+                }
+                
+            ]
+        },
+        {
+            "nombre": "Asier",
+            "apellido1": "Pulido",
+            "dni": "16142827R",
+            "fecha_nacimiento": "17 de Noviembre de 1990",
+            "direccion":[
+                {
+                    "tipo_via":"Avenida",
+                    "nombre_via":"Rúa do Paseo 80",
+                    "codigo_postal":"38053",
+                    "pais":"España"
+                }
+                
+            ]
+        },
+        {
+            "nombre": "Sandra",
+            "apellido1": "Casares",
+            "dni": "98349247M",
+            "fecha_nacimiento": "30 de Febrero de 1985",
+            "direccion":[
+                {
+                    "tipo_via":"Plaza",
+                    "nombre_via":"Ctra. Hornos 90",
+                    "codigo_postal":"15071",
+                    "pais":"España"
+                }
+                
+            ]
+        }
+    ],
+    "compañia":{
+        "id":"1234SSS",
+        "nombre":"Santa Monica Studio",
+        "nif":"45520546G",
+        "direccion":{
+            "tipo_via":"Calle",
+            "nombre_via":"Jefferson Blvd",
+            "codigo_postal":"13031",
+            "pais":"Estados Unidos"
+        }
+    },
+    "pagina_web":"https://sms.playstation.com/",
+    "codigo_html_videojuego": {
+        "content": "<html>\n    <head>\n        <title>Página web del videojuego</title>\n    </head>\n    <body>\n        <h1 style=\"text-align: center;\">Bienvenido</h1>\n        <h2 style=\"text-align: center; color: red\">God of War</h2>\n        <img src=\"https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.ign.com%2Fgod-of-war-2018%2F190659%2Ffeature%2F7-juegos-como-god-of-war-que-te-recomendamos-jugar-en-2023&psig=AOvVaw3BwkbHyHOarcjjpDfmYML8&ust=1705405650181000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjRhKKp34MDFQAAAAAdAAAAABAR\">\n    </body>\n</html>\n    "
+    }
+ }
+}
