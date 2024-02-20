@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego SYSTEM "Actividad_11_Videojuego.dtd">
+
+<videojuego identificador_unico="1468513">
+    <nombre>God of War</nombre>
+    <fecha_creacion>20 de Abril de 2018</fecha_creacion>
+    <nota>10/10</nota>
+    <lista_programadores>
+
+        <programador identificador_unico="648979">
+            <nombre>Cory</nombre>
+            <apellido1>Barlog</apellido1>
+            <dni>23127035Y</dni>
+            <fecha_nacimiento>2 de septiembre de 1975</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Calle</tipo_via>
+                <nombre_via>San Andrés 42</nombre_via>
+                <codigo_postal>24193</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador identificador_unico="654897">
+            <nombre>Asier</nombre>
+            <apellido1>Pulido</apellido1>
+            <dni>16142827R</dni>
+            <fecha_nacimiento>17 de Noviembre de 1990</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Avenida</tipo_via>
+                <nombre_via>Rúa do Paseo 80</nombre_via>
+                <codigo_postal>38053</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador identificador_unico="654897">
+            <nombre>Sandra</nombre>
+            <apellido1>Casares</apellido1>
+            <dni>98349247M</dni>
+            <fecha_nacimiento>30 de Febrero de 1985</fecha_nacimiento>
+            <direccion>
+                <tipo_via>Plaza</tipo_via>
+                <nombre_via>Ctra. Hornos 90</nombre_via>
+                <codigo_postal>15071</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+    </lista_programadores>
+
+    <compañia identificador_unico="ADF778946">
+        <id>1234SSS</id>
+        <nombre>Santa Monica Studio</nombre>
+        <nif>45520546G</nif>
+        <direccion>
+            <tipo_via>Calle</tipo_via>
+            <nombre_via>Jefferson Blvd</nombre_via>
+            <codigo_postal>13031</codigo_postal>
+            <pais>Estados Unidos</pais>
+        </direccion>
+    </compañia>
+
+    <pagina_web>https://sms.playstation.com/</pagina_web>
+
+    <codigo_html_videojuego>
+        <![CDATA[
+        <html>
+            <head>
+                <title>Página web del videojuego</title>
+            </head>
+            <body>
+                <h1 style="text-align: center;">Bienvenido</h1>
+                <h2 style="text-align: center; color: red">God of War</h2>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.ign.com%2Fgod-of-war-2018%2F190659%2Ffeature%2F7-juegos-como-god-of-war-que-te-recomendamos-jugar-en-2023&psig=AOvVaw3BwkbHyHOarcjjpDfmYML8&ust=1705405650181000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjRhKKp34MDFQAAAAAdAAAAABAR">
+            </body>
+        </html>
+        
+        ]]>
+    </codigo_html_videojuego>
+</videojuego>
