@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+}
+    
+.white {
+    color: white;
+    background-color: gray;
+}
+
+.blue {
+    color: blue;
+    background-color: red;
+}
+
+#header {
+    color: yellow;
+    background-color: black;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+}
+
+#titulo{
+    color: red;
+    text-align: center;
+}
+
+#lista{
+    color: blueviolet;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    border: #b2b2b2 4px solid;
+}
+
+td, th {
+    border: black 1px solid;
+}
+
+.rainbow{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: black;
+}
+
+.azul{
+    color: blue;
+}
+
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}

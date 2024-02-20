@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="CSS\Actividad10.css">
+</head>
+<script>
+    function mostrarMensaje(){
+        alert("Bienvenido a JS");
+    }
+    function mostrarEtiqueta(){
+        var oculta = document.getElementById("none")
+        if (oculta.style.display === "none" ){
+            oculta.style.display = "block";
+        } else{
+            oculta.style.display = "none";
+        }
+    }
+       
+</script>
+<body>
+    <!-- Etiquetas div-->
+    <div class="inline">Este es un ejemplo de una etiqueta 'div' con display inline</div>
+    <div class="inline">Este es otro ejemplo de una etiqueta 'div' con display inline</div> 
+
+    <!-- Etiquetas span-->
+    <span class="block">Este es un ejemplo de una etiqueta 'span' con display block</span>
+    <span class="block">Este es otro ejemplo de una etiqueta 'span' con display block</span>
+
+    <!-- Etiquetas a-->
+    <a href="https://www.google.com/" class="inline-block">Este se un enlace a google con display inline-block</a>
+    <a href="https://www.google.com/" class="inline-block">Este es otro enlace a google con display inline-block</a>
+
+    <!-- Etiquetas p-->
+    <p id="none">Esta es una etiqueta oculta que que no se mostrará si no presiona el boton</p>
+    
+    <br/>
+    <br/>
+    <button onclick="mostrarMensaje()">Pulse este botón</button>
+    <button onclick="mostrarEtiqueta()">Pulse este otro botón</button>
+
+</body>
+</html>

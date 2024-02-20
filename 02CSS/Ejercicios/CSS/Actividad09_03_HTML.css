@@ -1,0 +1,22 @@
+
+h1{
+    text-align: center;
+}
+.ul1{
+    list-style-image: url("../IMG/icons8-grupo-de-frutas-30.png");
+}
+
+.ol1{
+    list-style-type: upper-alpha;
+    color: blue;
+}
+
+.ul2{
+    list-style-type: square;
+    color: blue;
+}
+
+.ol2{
+    list-style-type: lower-roman;
+    color: blueviolet;
+}

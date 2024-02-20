@@ -1,0 +1,58 @@
+/*
+    Posicionamiento
+*/
+.fixed{
+    position: fixed;
+    background-color:cadetblue;
+    height: 200px;
+    width: 200px;
+    left: 400px;
+
+}
+.static{
+    position: static;
+    background-color:coral;
+    height: 200px;
+    width: 200px;
+}
+.relative{
+    position: relative;
+    background-color:darkolivegreen;
+    height: 200px;
+    width: 200px;
+    left: 150px;
+    top: 200px;
+
+}
+.absolute{
+    position: absolute;
+    background-color:goldenrod;
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    left: 50px;
+}
+
+/*
+    Display
+*/
+
+.inline{
+    display: inline;
+    background-color: cornflowerblue;
+    width: max-content;
+}
+.block{
+    display: block;
+    background-color: lightsalmon;
+    width: max-content;
+}
+.inline-block{
+    display: inline-block;
+    background-color: greenyellow;
+    width: 30px;
+}
+#none{
+    display: none;
+    background-color: khaki;
+}

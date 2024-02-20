@@ -1,0 +1,21 @@
+p.tnr{
+    border: 3px blue solid;
+}
+
+h1{
+    border: 3px;
+    border: solid;
+    color: blue;
+}
+
+#especial{
+    border: dashed;
+    border-top-width: 50px;
+    border-left-width: 30px;
+    border-bottom-width: 70px;
+    border-right-width: 20px;
+    border-top-color: blueviolet;
+    border-left-color: royalblue;
+    border-bottom-width: orange;
+    border-right-color: darkred;    
+}
