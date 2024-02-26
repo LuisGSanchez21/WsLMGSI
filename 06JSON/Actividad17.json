@@ -1,0 +1,85 @@
+{"biblioteca":{
+    "nombre":"Biblioteca Nacional",
+    "seccion":[
+        {
+            "@categoría": "Aventura",
+            "libro":[
+                {
+                    "@id": "L1",
+                    "titulo": "El señor de los anillos",
+                    "autor": "J.R.R. Tolkien",
+                    "resumen": "Un viaje épico para destruir un anillo mágico.",
+                    "editorial":[
+                        {
+                            "nombre": "Editorial Fantástica",
+                            "ciudad": "Barcelona"
+                        }
+                    ]
+                },
+                {
+                    "@id": "L2",
+                    "titulo": "Harry Potter y la Piedra Filosofal",
+                    "autor": "J.K. Rowling",
+                    "anio": 1997,
+                    "resumen": "Las aventuras de un joven mago en Hogwarts.",
+                    "editorial":[
+                        {
+                            "nombre": "Ediciones Mágicas",
+                            "ciudad": "Londres"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@categoría": "Novela",
+            "@pasillo": "P3",
+            "libro":[
+                {
+                    "@id": "L3",
+                    "titulo": "Cien Años de Soledad",
+                    "autor": "Gabriel García Márquez",
+                    "anio": 1967,
+                    "editorial":[
+                        {
+                            "nombre": "Ediciones Macondo",
+                            "ciudad": "Bógota"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@categoría": "Ciencia_ficcion",
+            "libro":[
+                {
+                    "@id": "L4",
+                    "titulo": 1984,
+                    "autor": "George Orwell",
+                    "resumen": "Un futuro distópico donde el pensamiento está controlado",
+                    "editorial":[
+                        {
+                            "código": "ED45TR",
+                            "nombre": "Editorial Distopía",
+                            "ciudad": "Londres"
+                        }
+                    ]
+                },
+                {
+                    "@id": "L5",
+                    "titulo": "Fundación",
+                    "autor": "Isaac Asimov",
+                    "anio": 1951,
+                    "resumen": "La historia de la Fundación para prever el futuro galáctico",
+                    "editorial":[
+                        {
+                            "nombre": "Ediciones Galácticas",
+                            "ciudad": "Nueva York"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+}
